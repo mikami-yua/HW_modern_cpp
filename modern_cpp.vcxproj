@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{25167c64-fb89-40bb-9d11-06c0188e697d}</ProjectGuid>
+    <RootNamespace>moderncpp</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\c_project\modern_c___examples_full\02\01_stack_unwind.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\02\02_shape_wrapper.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\03\01_vector.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\03\02_forward.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\03\03_lifetime.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\03\04_lifetime_extension.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\04\01_unique_ptr.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\04\02_shared_ptr.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\05\01_output_range_test.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\05\02_vector_move.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\05\03_hash.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\05\04_priority_queue.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\05\05_unordered.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\06\01_output_iterator.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\06\02_istream_line_reader.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\07\01_obj_return_arma.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\07\02_rvo_unnamed.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\07\03_rvo_named.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\07\04_rv_move.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\07\05_rv_copy.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\08\01_decltype.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\08\02_initializer_list.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\08\03_zero_initialization.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\08\04_std_literals.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\08\05_user_literals.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\08\06_null_problem.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\08\07_attributes.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\09\01_byte.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\09\02_tuple.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\09\03_chrono.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\09\04_random.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\09\05_regex.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\10\01_any.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\10\02_optional.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\10\03_variant.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\10\04_visit.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\10\05_mmap_reader.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\10\06_outcome.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\11\01_string_view.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\11\02_span.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\11\03_ranges.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\12\01_my_gcd.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\12\02_cln_problem.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\12\03_cln_op_overload.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\12\04_cln_func_overload.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\12\05_cln_func_specialization.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\12\06_variable_template.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\12\07_static_assert.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\12\08_type_display.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\13\01_lambda_capture.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\13\02_generic_lambda.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\13\03_function_object.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\13\04_count_lines.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\13\05_par_reduce.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\14\01_sfinae.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\14\02_has_reserve_v1.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\14\03_has_reserve_v2.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\14\04_has_reserve_concept.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\14\05_factorial.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\14\06_std_literals.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\14\07_count_bits.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\15\01_thread.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\15\02_mutex_vs_shared_mutex.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\15\03_cond_var.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\15\04_async.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\15\05_atomic_increment.cpp" />
+    <ClCompile Include="E:\c_project\modern_c___examples_full\15\06_atomic_vs_mutex.cpp" />
+    <ClCompile Include="modern_cpp.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\c_project\modern_c___examples_full\10\availability_hack.h" />
+    <ClInclude Include="E:\c_project\modern_c___examples_full\15\scoped_thread.h" />
+    <ClInclude Include="E:\c_project\modern_c___examples_full\common\istream_line_reader.h" />
+    <ClInclude Include="E:\c_project\modern_c___examples_full\common\output_range.h" />
+    <ClInclude Include="E:\c_project\modern_c___examples_full\common\rdtsc.h" />
+    <ClInclude Include="E:\c_project\modern_c___examples_full\common\shape.h" />
+    <ClInclude Include="E:\c_project\modern_c___examples_full\common\smart_ptr.h" />
+    <ClInclude Include="E:\c_project\modern_c___examples_full\common\type_displayer.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
