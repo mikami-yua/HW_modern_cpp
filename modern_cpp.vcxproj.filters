@@ -16,211 +16,235 @@
     <Filter Include="资源文件\class_code">
       <UniqueIdentifier>{a3c7154e-91b2-4bfe-b6d0-2127b9989e3b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="资源文件\class_code\01">
+      <UniqueIdentifier>{9d9bd382-19a2-4bc0-abbd-c321dbe768f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\class_code\02">
+      <UniqueIdentifier>{f4d46f30-f51d-4eb3-9720-3087ba9d1aac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\class_code\03">
+      <UniqueIdentifier>{bf6c85f1-09d2-46e4-bb41-8da6e513a2ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\class_code\04">
+      <UniqueIdentifier>{9ffb2505-6945-4d49-af15-e7c2dc1ef686}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\class_code\05">
+      <UniqueIdentifier>{ac944fed-de0f-4599-a938-0e36b2b0fd6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\class_code\06">
+      <UniqueIdentifier>{c79187d7-af73-4d86-9811-c067d2d1a3ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\class_code\07">
+      <UniqueIdentifier>{fe7a5516-37b9-4517-8341-8e051e3a0a66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\class_code\08">
+      <UniqueIdentifier>{85ea8a14-601a-4574-8b0d-3a9c8adcc0b1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="modern_cpp.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\10\01_any.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\01</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\09\01_byte.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\01</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\08\01_decltype.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\01</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\13\01_lambda_capture.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\01</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\12\01_my_gcd.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\01</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\07\01_obj_return_arma.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\01</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\06\01_output_iterator.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\01</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\05\01_output_range_test.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\01</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\14\01_sfinae.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\01</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\02\01_stack_unwind.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\01</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\11\01_string_view.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\01</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\15\01_thread.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\01</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\04\01_unique_ptr.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\01</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\03\01_vector.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\01</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\12\02_cln_problem.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\02</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\03\02_forward.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\02</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\13\02_generic_lambda.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\02</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\14\02_has_reserve_v1.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\02</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\08\02_initializer_list.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\02</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\06\02_istream_line_reader.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\02</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\15\02_mutex_vs_shared_mutex.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\02</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\10\02_optional.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\02</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\07\02_rvo_unnamed.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\02</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\02\02_shape_wrapper.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\02</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\04\02_shared_ptr.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\02</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\11\02_span.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\02</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\09\02_tuple.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\02</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\05\02_vector_move.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\02</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\09\03_chrono.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\03</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\12\03_cln_op_overload.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\03</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\15\03_cond_var.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\03</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\13\03_function_object.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\03</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\14\03_has_reserve_v2.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\03</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\05\03_hash.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\03</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\03\03_lifetime.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\03</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\11\03_ranges.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\03</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\07\03_rvo_named.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\03</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\10\03_variant.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\03</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\08\03_zero_initialization.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\03</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\15\04_async.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\04</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\12\04_cln_func_overload.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\04</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\13\04_count_lines.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\04</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\14\04_has_reserve_concept.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\04</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\03\04_lifetime_extension.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\04</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\05\04_priority_queue.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\04</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\09\04_random.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\04</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\07\04_rv_move.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\04</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\08\04_std_literals.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\04</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\10\04_visit.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\04</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\15\05_atomic_increment.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\05</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\12\05_cln_func_specialization.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\05</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\14\05_factorial.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\05</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\10\05_mmap_reader.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\05</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\13\05_par_reduce.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\05</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\09\05_regex.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\05</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\07\05_rv_copy.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\05</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\05\05_unordered.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\05</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\08\05_user_literals.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\05</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\15\06_atomic_vs_mutex.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\06</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\08\06_null_problem.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\06</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\10\06_outcome.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\06</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\14\06_std_literals.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\06</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\12\06_variable_template.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\06</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\08\07_attributes.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\07</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\14\07_count_bits.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\07</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\12\07_static_assert.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\07</Filter>
     </ClCompile>
     <ClCompile Include="E:\c_project\modern_c___examples_full\12\08_type_display.cpp">
-      <Filter>资源文件\class_code</Filter>
+      <Filter>资源文件\class_code\08</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
